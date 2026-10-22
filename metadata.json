@@ -1,0 +1,6 @@
+{
+  "name": "Poultry Farm Tracker",
+  "description": "Offline-first poultry farm management app for Indian smallholders to track flock inventory, daily egg production, bird mortality, and generate reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

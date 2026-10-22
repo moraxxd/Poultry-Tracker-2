@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Poultry Farm Tracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_records">Records</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Setup Screen -->
+    <string name="setup_title">Farm Setup</string>
+    <string name="setup_subtitle">Welcome! Set up your poultry farm profile to start tracking your flock, eggs, and inventory.</string>
+    <string name="setup_farm_name">Farm Name</string>
+    <string name="setup_farm_name_hint">e.g., Sunrise Poultry Farm</string>
+    <string name="setup_initial_adults">Initial Adult Chickens</string>
+    <string name="setup_initial_chicks">Initial Chicks</string>
+    <string name="setup_inventory_date">Opening Inventory Date</string>
+    <string name="setup_preferred_language">Preferred Language</string>
+    <string name="setup_zero_hint">Enter 0 if this is a newly starting flock.</string>
+    <string name="setup_submit">Save &amp; Start Tracking</string>
+    <string name="setup_validation_name">Please enter a farm name.</string>
+    <string name="setup_validation_numbers">Please enter valid non-negative quantities.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Farm Dashboard</string>
+    <string name="dashboard_subtitle">Real-time flock inventory &amp; daily summary</string>
+    <string name="dashboard_live_adults">Live Adult Chickens</string>
+    <string name="dashboard_live_chicks">Live Chicks</string>
+    <string name="dashboard_total_live">Total Live Birds</string>
+    <string name="dashboard_eggs_today">Eggs Today</string>
+    <string name="dashboard_adult_deaths_today">Adult Deaths Today</string>
+    <string name="dashboard_chick_deaths_today">Chick Deaths Today</string>
+    <string name="dashboard_total_deaths_today">Total Deaths Today</string>
+    <string name="dashboard_last_record">Latest Record</string>
+    <string name="dashboard_no_records_yet">No daily records recorded yet. Start by logging today\'s activity.</string>
+    <string name="dashboard_btn_add_record">Add Daily Record</string>
+    <string name="dashboard_quick_records">View History</string>
+    <string name="dashboard_quick_reports">View Reports</string>
+    <string name="dashboard_quick_backup">Backup Data</string>
+    <string name="dashboard_quick_actions">Quick Actions</string>
+    <string name="dashboard_flock_status">Flock Overview</string>
+    <string name="dashboard_today_performance">Today\'s Performance</string>
+
+    <!-- Daily Record Form -->
+    <string name="record_form_title_add">Add Daily Record</string>
+    <string name="record_form_title_edit">Edit Daily Record</string>
+    <string name="record_date">Date</string>
+    <string name="record_time">Time</string>
+    <string name="record_select_date">Select Date</string>
+    <string name="record_select_time">Select Time</string>
+    
+    <string name="section_adult_chickens">Adult Chickens Inventory</string>
+    <string name="label_opening_adults">Opening Adult Chickens</string>
+    <string name="label_adults_added">Adults Added / Purchased (+)</string>
+    <string name="label_adult_deaths">Adult Deaths (-)</string>
+    <string name="label_adults_sold">Adults Sold / Removed (-)</string>
+    <string name="label_closing_adults">Closing Adult Chickens</string>
+    
+    <string name="section_chicks">Chicks Inventory</string>
+    <string name="label_opening_chicks">Opening Chicks</string>
+    <string name="label_chicks_added">Chicks Added / Hatched (+)</string>
+    <string name="label_chick_deaths">Chick Deaths (-)</string>
+    <string name="label_chicks_sold">Chicks Sold / Removed (-)</string>
+    <string name="label_closing_chicks">Closing Chicks</string>
+    
+    <string name="section_egg_production">Egg Production</string>
+    <string name="label_eggs_collected">Eggs Collected Today</string>
+    
+    <string name="section_notes_health">Observations &amp; Treatment</string>
+    <string name="label_notes">General Notes (Optional)</string>
+    <string name="label_health_obs">Health Observations (Optional)</string>
+    <string name="label_treatments">Vaccines / Treatments (Optional)</string>
+    
+    <string name="btn_save_record">Save Record</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="msg_record_saved">Daily record saved successfully.</string>
+    <string name="msg_record_deleted">Record deleted and subsequent inventory updated.</string>
+    <string name="msg_error_negative_adults">Calculated closing adult count cannot be negative (%d).</string>
+    <string name="msg_error_negative_chicks">Calculated closing chick count cannot be negative (%d).</string>
+    <string name="msg_warning_closing_mismatch">Entered closing count differs from calculated balance. An adjustment will be recorded.</string>
+    <string name="msg_date_exists_overwrite">A record exists for this date (%s). Saving will update it.</string>
+    <string name="msg_fill_valid_numbers">Please enter valid non-negative whole numbers.</string>
+
+    <!-- Records History Screen -->
+    <string name="records_title">Daily Record History</string>
+    <string name="filter_all">All Time</string>
+    <string name="filter_today">Today</string>
+    <string name="filter_yesterday">Yesterday</string>
+    <string name="filter_last_7_days">Last 7 Days</string>
+    <string name="filter_last_30_days">Last 30 Days</string>
+    <string name="filter_custom">Custom Range</string>
+    <string name="search_hint">Search records by date (YYYY-MM-DD)…</string>
+    <string name="records_empty">No records found for the selected filter.</string>
+    <string name="confirm_delete_title">Delete Record?</string>
+    <string name="confirm_delete_message">Are you sure you want to delete the record for %s? Subsequent inventory records will be recalculated automatically.</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Reports Screen -->
+    <string name="reports_title">Reports &amp; Analytics</string>
+    <string name="report_period_selector">Period</string>
+    <string name="stat_eggs_today">Eggs Today</string>
+    <string name="stat_eggs_7_days">Eggs (Last 7 Days)</string>
+    <string name="stat_eggs_30_days">Eggs (Last 30 Days)</string>
+    <string name="stat_eggs_total_period">Total Eggs in Period</string>
+    <string name="stat_avg_daily_eggs">Avg Daily Egg Production</string>
+    <string name="stat_daily_mortality_rate">Daily Mortality Rate</string>
+    <string name="stat_mortality_formula_hint">Formula: (Deaths / Opening Live Birds) × 100</string>
+    <string name="stat_total_adult_deaths">Total Adult Deaths</string>
+    <string name="stat_total_chick_deaths">Total Chick Deaths</string>
+    <string name="stat_total_deaths">Total Mortality (Deaths)</string>
+    <string name="stat_current_adults">Current Adult Stock</string>
+    <string name="stat_current_chicks">Current Chick Stock</string>
+    <string name="stat_current_total">Current Total Birds</string>
+    <string name="chart_eggs_title">Egg Production Trend</string>
+    <string name="chart_deaths_title">Daily Mortality Trend</string>
+    <string name="chart_population_title">Flock Population Over Time</string>
+    <string name="chart_no_data">Not enough data to display chart.</string>
+    <string name="export_report_csv">Export Report to CSV</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Farm Settings</string>
+    <string name="settings_farm_profile">Farm Profile</string>
+    <string name="settings_edit_name">Farm Name</string>
+    <string name="settings_language">App Language / भाषा</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_hi">हिंदी (Hindi)</string>
+    <string name="settings_initial_inventory">Initial Opening Inventory</string>
+    <string name="settings_initial_summary">%1$d Adults, %2$d Chicks on %3$s</string>
+    <string name="settings_data_backup">Data &amp; Backup</string>
+    <string name="settings_export_csv">Export Daily Records (CSV)</string>
+    <string name="settings_backup_full">Create Full Backup (JSON)</string>
+    <string name="settings_restore_backup">Restore from Backup</string>
+    <string name="settings_share_file">Share File</string>
+    <string name="settings_reset_all">Reset All Farm Data</string>
+    <string name="settings_reset_confirm_title">Reset Everything?</string>
+    <string name="settings_reset_confirm_msg">This will permanently delete all daily records and farm profile from this device. This cannot be undone.</string>
+    <string name="settings_help_rules">Inventory Formulas &amp; Help</string>
+    <string name="settings_app_info">About Application</string>
+    <string name="settings_version">Version 1.0.0 (Offline Native)</string>
+    <string name="settings_offline_note">100% offline, local SQLite database on your device.</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Inventory Calculation Rules</string>
+    <string name="help_content">1. Closing Adults = Opening Adults + Adults Added - Adult Deaths - Adults Sold.\n\n2. Closing Chicks = Opening Chicks + Chicks Added - Chick Deaths - Chicks Sold.\n\n3. Total Live Birds = Closing Adults + Closing Chicks.\n\n4. Total Deaths Today = Adult Deaths + Chick Deaths.\n\n5. Daily Mortality Rate = (Total Deaths / Opening Total Live Birds) × 100. (If opening is 0, displays N/A).\n\n6. The closing count of today automatically becomes tomorrow\'s opening balance.\n\n7. Editing or deleting past records automatically updates all subsequent inventory balances.</string>
+    
+    <!-- Backup / Restore Messages -->
+    <string name="msg_backup_success">Backup file exported successfully.</string>
+    <string name="msg_backup_failed">Failed to export backup: %s</string>
+    <string name="msg_restore_success">Farm data restored successfully!</string>
+    <string name="msg_restore_invalid">Invalid or corrupted backup file. No changes were made.</string>
+    <string name="msg_restore_confirm_title">Restore Data?</string>
+    <string name="msg_restore_confirm_msg">Restoring this file will overwrite existing farm records on this phone. Are you sure?</string>
+    <string name="msg_csv_export_success">CSV exported successfully.</string>
+    <string name="msg_reset_success">All data reset successfully.</string>
+</resources>

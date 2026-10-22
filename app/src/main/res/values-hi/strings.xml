@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">पोल्ट्री फार्म ट्रैकर</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_records">रिकॉर्ड</string>
+    <string name="nav_reports">रिपोर्ट</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <!-- Setup Screen -->
+    <string name="setup_title">फार्म सेटअप</string>
+    <string name="setup_subtitle">स्वागत है! अपने पक्षियों, अंडों और स्टॉक का हिसाब रखने के लिए फार्म प्रोफाइल सेट करें।</string>
+    <string name="setup_farm_name">फार्म का नाम</string>
+    <string name="setup_farm_name_hint">उदा. सनराइज पोल्ट्री फार्म</string>
+    <string name="setup_initial_adults">शुरुआती वयस्क मुर्गियाँ</string>
+    <string name="setup_initial_chicks">शुरुआती चूजे</string>
+    <string name="setup_inventory_date">प्रारंभिक स्टॉक दिनांक</string>
+    <string name="setup_preferred_language">पसंदीदा भाषा</string>
+    <string name="setup_zero_hint">यदि नया झुंड शुरू कर रहे हैं तो 0 दर्ज करें।</string>
+    <string name="setup_submit">सहेजें और शुरू करें</string>
+    <string name="setup_validation_name">कृपया फार्म का नाम दर्ज करें।</string>
+    <string name="setup_validation_numbers">कृपया सही संख्या दर्ज करें।</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">फार्म डैशबोर्ड</string>
+    <string name="dashboard_subtitle">रियल-टाइम पक्षी स्टॉक और दैनिक सारांश</string>
+    <string name="dashboard_live_adults">जीवित वयस्क मुर्गियाँ</string>
+    <string name="dashboard_live_chicks">जीवित चूजे</string>
+    <string name="dashboard_total_live">कुल जीवित पक्षी</string>
+    <string name="dashboard_eggs_today">आज एकत्र अंडे</string>
+    <string name="dashboard_adult_deaths_today">आज मृत वयस्क</string>
+    <string name="dashboard_chick_deaths_today">आज मृत चूजे</string>
+    <string name="dashboard_total_deaths_today">आज कुल मृत्यु</string>
+    <string name="dashboard_last_record">अंतिम रिकॉर्ड</string>
+    <string name="dashboard_no_records_yet">अभी तक कोई दैनिक रिकॉर्ड नहीं है। आज का विवरण दर्ज करें।</string>
+    <string name="dashboard_btn_add_record">दैनिक रिकॉर्ड जोड़ें</string>
+    <string name="dashboard_quick_records">रिकॉर्ड इतिहास</string>
+    <string name="dashboard_quick_reports">रिपोर्ट देखें</string>
+    <string name="dashboard_quick_backup">डेटा बैकअप</string>
+    <string name="dashboard_quick_actions">त्वरित कार्य</string>
+    <string name="dashboard_flock_status">पक्षी स्टॉक अवलोकन</string>
+    <string name="dashboard_today_performance">आज का प्रदर्शन</string>
+
+    <!-- Daily Record Form -->
+    <string name="record_form_title_add">दैनिक रिकॉर्ड जोड़ें</string>
+    <string name="record_form_title_edit">रिकॉर्ड संपादित करें</string>
+    <string name="record_date">दिनांक</string>
+    <string name="record_time">समय</string>
+    <string name="record_select_date">दिनांक चुनें</string>
+    <string name="record_select_time">समय चुनें</string>
+    
+    <string name="section_adult_chickens">वयस्क मुर्गियों का स्टॉक</string>
+    <string name="label_opening_adults">शुरुआती वयस्क मुर्गियाँ</string>
+    <string name="label_adults_added">नई वयस्क जोड़ी गईं / खरीदी गईं (+)</string>
+    <string name="label_adult_deaths">वयस्क मुर्गियों की मृत्यु (-)</string>
+    <string name="label_adults_sold">वयस्क बेची गईं / हटाई गईं (-)</string>
+    <string name="label_closing_adults">अंतिम वयस्क मुर्गियाँ</string>
+    
+    <string name="section_chicks">चूजों का स्टॉक</string>
+    <string name="label_opening_chicks">शुरुआती चूजे</string>
+    <string name="label_chicks_added">नए चूजे जोड़े गए (+)</string>
+    <string name="label_chick_deaths">चूजों की मृत्यु (-)</string>
+    <string name="label_chicks_sold">चूजे बेचे गए / हटाए गए (-)</string>
+    <string name="label_closing_chicks">अंतिम चूजे</string>
+    
+    <string name="section_egg_production">अंडा उत्पादन</string>
+    <string name="label_eggs_collected">आज एकत्र अंडे</string>
+    
+    <string name="section_notes_health">निरीक्षण और उपचार</string>
+    <string name="label_notes">सामान्य नोट्स (वैकल्पिक)</string>
+    <string name="label_health_obs">स्वास्थ्य संबंधी लक्षण (वैकल्पिक)</string>
+    <string name="label_treatments">टीकाकरण / दवा (वैकल्पिक)</string>
+    
+    <string name="btn_save_record">रिकॉर्ड सहेजें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_delete">हटाएं</string>
+    <string name="msg_record_saved">दैनिक रिकॉर्ड सफलतापूर्वक सहेजा गया।</string>
+    <string name="msg_record_deleted">रिकॉर्ड हटाया गया और आगे का स्टॉक अपडेट किया गया।</string>
+    <string name="msg_error_negative_adults">वयस्क मुर्गियों की अंतिम संख्या ऋणात्मक नहीं हो सकती (%d)।</string>
+    <string name="msg_error_negative_chicks">चूजों की अंतिम संख्या ऋणात्मक नहीं हो सकती (%d)।</string>
+    <string name="msg_warning_closing_mismatch">दर्ज की गई अंतिम संख्या गणना से भिन्न है। स्टॉक समायोजन दर्ज होगा।</string>
+    <string name="msg_date_exists_overwrite">इस तारीख (%s) का रिकॉर्ड पहले से मौजूद है। सहेजने पर यह अपडेट होगा।</string>
+    <string name="msg_fill_valid_numbers">कृपया सही गैर-ऋणात्मक पूर्ण संख्या दर्ज करें।</string>
+
+    <!-- Records History Screen -->
+    <string name="records_title">दैनिक रिकॉर्ड इतिहास</string>
+    <string name="filter_all">सभी समय</string>
+    <string name="filter_today">आज</string>
+    <string name="filter_yesterday">कल</string>
+    <string name="filter_last_7_days">पिछले 7 दिन</string>
+    <string name="filter_last_30_days">पिछले 30 दिन</string>
+    <string name="filter_custom">कस्टम अवधि</string>
+    <string name="search_hint">तारीख से खोजें (YYYY-MM-DD)…</string>
+    <string name="records_empty">चुनी गई अवधि के लिए कोई रिकॉर्ड नहीं मिला।</string>
+    <string name="confirm_delete_title">रिकॉर्ड हटाएं?</string>
+    <string name="confirm_delete_message">क्या आप %s का रिकॉर्ड हटाना चाहते हैं? इसके बाद के सभी स्टॉक की गणना पुनः की जाएगी।</string>
+    <string name="dialog_confirm">हटाएं</string>
+    <string name="dialog_cancel">रद्द करें</string>
+
+    <!-- Reports Screen -->
+    <string name="reports_title">रिपोर्ट और विश्लेषण</string>
+    <string name="report_period_selector">अवधि</string>
+    <string name="stat_eggs_today">आज के अंडे</string>
+    <string name="stat_eggs_7_days">अंडे (पिछले 7 दिन)</string>
+    <string name="stat_eggs_30_days">अंडे (पिछले 30 दिन)</string>
+    <string name="stat_eggs_total_period">अवधि में कुल अंडे</string>
+    <string name="stat_avg_daily_eggs">औसत दैनिक अंडा उत्पादन</string>
+    <string name="stat_daily_mortality_rate">दैनिक मृत्यु दर</string>
+    <string name="stat_mortality_formula_hint">सूत्र: (मृत्यु / शुरुआती कुल जीवित पक्षी) × 100</string>
+    <string name="stat_total_adult_deaths">कुल मृत वयस्क</string>
+    <string name="stat_total_chick_deaths">कुल मृत चूजे</string>
+    <string name="stat_total_deaths">कुल मृत्यु</string>
+    <string name="stat_current_adults">वर्तमान वयस्क स्टॉक</string>
+    <string name="stat_current_chicks">वर्तमान चूजे स्टॉक</string>
+    <string name="stat_current_total">वर्तमान कुल जीवित पक्षी</string>
+    <string name="chart_eggs_title">अंडा उत्पादन रुझान</string>
+    <string name="chart_deaths_title">दैनिक मृत्यु दर रुझान</string>
+    <string name="chart_population_title">समय के साथ कुल पक्षी</string>
+    <string name="chart_no_data">चार्ट प्रदर्शित करने के लिए पर्याप्त डेटा नहीं है।</string>
+    <string name="export_report_csv">रिपोर्ट CSV में निर्यात करें</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">फार्म सेटिंग्स</string>
+    <string name="settings_farm_profile">फार्म प्रोफाइल</string>
+    <string name="settings_edit_name">फार्म का नाम</string>
+    <string name="settings_language">ऐप की भाषा / Language</string>
+    <string name="settings_lang_en">English (अंग्रेज़ी)</string>
+    <string name="settings_lang_hi">हिंदी (Hindi)</string>
+    <string name="settings_initial_inventory">प्रारंभिक ओपनिंग स्टॉक</string>
+    <string name="settings_initial_summary">%1$d वयस्क, %2$d चूजे (%3$s को)</string>
+    <string name="settings_data_backup">डेटा और बैकअप</string>
+    <string name="settings_export_csv">दैनिक रिकॉर्ड CSV में निर्यात करें</string>
+    <string name="settings_backup_full">पूर्ण बैकअप बनाएं (JSON)</string>
+    <string name="settings_restore_backup">बैकअप से रीस्टोर करें</string>
+    <string name="settings_share_file">फ़ाइल साझा करें</string>
+    <string name="settings_reset_all">सभी फार्म डेटा रीसेट करें</string>
+    <string name="settings_reset_confirm_title">सब कुछ रीसेट करें?</string>
+    <string name="settings_reset_confirm_msg">यह इस डिवाइस से सभी रिकॉर्ड और फार्म जानकारी हमेशा के लिए हटा देगा। इसे पूर्ववत नहीं किया जा सकता।</string>
+    <string name="settings_help_rules">स्टॉक गणना के नियम और मदद</string>
+    <string name="settings_app_info">ऐप के बारे में</string>
+    <string name="settings_version">संस्करण 1.0.0 (ऑफ़लाइन नेटिव)</string>
+    <string name="settings_offline_note">100% ऑफ़लाइन, आपके फ़ोन पर सुरक्षित SQLite डेटाबेस।</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">स्टॉक गणना के नियम</string>
+    <string name="help_content">1. अंतिम वयस्क = शुरुआती वयस्क + नए जोड़े गए - मृत्यु - बेची गईं।\n\n2. अंतिम चूजे = शुरुआती चूजे + नए जोड़े गए - मृत्यु - बेचे गए।\n\n3. कुल जीवित पक्षी = अंतिम वयस्क + अंतिम चूजे।\n\n4. आज की कुल मृत्यु = वयस्क मृत्यु + चूजों की मृत्यु।\n\n5. दैनिक मृत्यु दर = (कुल मृत्यु / शुरुआती कुल जीवित पक्षी) × 100। (यदि शुरुआती स्टॉक 0 है तो N/A)।\n\n6. आज का अंतिम स्टॉक स्वतः कल का शुरुआती स्टॉक बन जाता है।\n\n7. पुराने रिकॉर्ड संपादित या हटाने पर आगे के सभी स्टॉक स्वतः पुनः परिकलित होते हैं।</string>
+    
+    <!-- Backup / Restore Messages -->
+    <string name="msg_backup_success">बैकअप फ़ाइल सफलतापूर्वक निर्यात हुई।</string>
+    <string name="msg_backup_failed">बैकअप निर्यात विफल: %s</string>
+    <string name="msg_restore_success">फार्म डेटा सफलतापूर्वक रीस्टोर हुआ!</string>
+    <string name="msg_restore_invalid">अमान्य या दूषित बैकअप फ़ाइल। कोई बदलाव नहीं किया गया।</string>
+    <string name="msg_restore_confirm_title">डेटा रीस्टोर करें?</string>
+    <string name="msg_restore_confirm_msg">यह फ़ाइल रीस्टोर करने से वर्तमान रिकॉर्ड बदल जाएंगे। क्या आप जारी रखना चाहते हैं?</string>
+    <string name="msg_csv_export_success">CSV सफलतापूर्वक निर्यात हुई।</string>
+    <string name="msg_reset_success">सभी डेटा सफलतापूर्वक रीसेट किया गया।</string>
+</resources>
